@@ -62,7 +62,7 @@ function checkCaught() {
                   Math.abs(ghostY - playerY) < SIZE / 2;
     if (close) {
         gameOver = true;
-        player.textContent = "💀";
+        player.textContent = "&#128169;";
         setTimeout(() => alert("The ghost got you!"), 50);
     }
 }
